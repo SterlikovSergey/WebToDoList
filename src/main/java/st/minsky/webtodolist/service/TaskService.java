@@ -1,2 +1,4 @@
-package st.minsky.webtodolist.service;public interface TaskService {
+package st.minsky.webtodolist.service;
+
+public interface TaskService {
 }
