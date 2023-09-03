@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registration page</title>
+    <title>Login page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
           crossorigin="anonymous">
@@ -14,7 +14,7 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-<form action="/registration" method="post">
+<form action="login" method="post">
 
     <div class="mx-auto" style="width: 800px;">
         <div class="form-floating mb-4">
@@ -31,33 +31,10 @@
     </div>
 
     <div class="mx-auto" style="width: 800px;">
-        <div class="form-floating mb-4">
-            <input type="text" class="form-control" id="floatingInput1" name="login" placeholder="Name">
-            <label for="floatingInput1">Name</label>
-        </div>
-    </div>
-
-    <div class="mx-auto" style="width: 800px;">
-        <div class="form-floating mb-4">
-            <input type="text" class="form-control" id="floatingInput2" name="surname" placeholder="Surname">
-            <label for="floatingInput2">Surname</label>
-        </div>
-    </div>
-
-    <div class="mx-auto" style="width: 800px;">
-        <div class="form-floating mb-4">
-            <input type="date" class="form-control" id="floatingInput3" name="dateOfBirth" placeholder="Date of Birth"
-                   value="1980-01-01"
-                   min="1900-01-01" max="2050-01-01">
-            <label for="floatingInput3">Date of Birth</label>
-        </div>
-    </div>
-
-    <div class="mx-auto" style="width: 800px;">
         <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="submit">Registration</button>
+            <button class="btn btn-primary" type="submit">Login</button>
             <button class="btn btn-primary" type="reset">Reset</button>
-            <a href="index.jsp" class="btn btn-primary" role="button">Login</a>
+            <a href="registration" class="btn btn-primary" role="button">Registration</a>
         </div>
     </div>
 
